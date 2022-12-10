@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-body: 'Bebas Neue', cursive;
+
+    --fc-main: rgba(134, 77, 151, 0.712);
+    --fc-shadow: black;
+    --fc-snow: white;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, rgba(182, 116, 219, 0.726), rgba(221, 191, 107, 0.979));
+
+    font-family: var(--ff-body);
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img/manicure-svgrepo-com.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    margin-top: 6rem;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 4rem;
+
+    list-style: none;
+    color: var(--fc-shadow);
+
+    margin-top: -5rem;
+}
+
+header ul li {
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+header .image_perfil {
+    display: flex;
+    justify-content: center;
+
+    background: var(--fc-main);
+
+    width: 16rem;
+    height: 16rem;
+
+    border-radius: 50%;
+    margin-top: 7rem;
+}
+
+header .image_perfil img {
+    width: 12rem;
+    height: 12rem;
+}
+
+/* div app/page - home */
+
+#app .div_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 8rem;
+}
+
+#app .div_main img {
+    background: var(--fc-main);
+
+    border: rgba(247, 247, 247, 0.8) solid 2px;
+    border-radius: 40%;
+
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+#app .div_main ul {
+    font-weight: 100;
+    font-size: 2rem;
+    
+    list-style: circle;
+    line-height: 4rem;
+    word-spacing: 3px;
+    
+    margin-top: 4rem;
+    background: rgba(199, 195, 195, 0.281);
+    color: rgba(19, 11, 11, 0.8); 
+}
+
+#app .div_main h1 {
+    margin-top: 6rem;
+    color: var(--fc-shadow);
+}
+
+#app .div_main h2 {
+    margin-top: 3rem;
+    color: var(--fc-shadow);
+}
+
+/* div app/page - nails */
+
+#app #nails_section {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    padding-top: 3rem;
+}
+
+#app #nails_section, h3 {
+    height: 62vh;
+}
+
+#app #nails_section img {
+    width: 44rem;
+}
+
+#app #nails_section .card  p {
+    font-size: 2rem;
+}
+
+#app .card {
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 20px;
+    border: var(--fc-snow) solid 1px;
+
+    height: 5rem;
+    width: 100%;
+
+    cursor: pointer;
+    padding: 4px;
+    background: rgba(240, 188, 197, 0.603);
+}
+
+
+#app .cdOne:hover {
+    background-image: url(img/nails/AlongamentoTipsSimples.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+
+    height: 10rem;
+    color: var(--fc-snow);
+}
+
+#app .cdTwo:hover {
+    background-image: url(img/nails/alongEncap.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10rem;
+    color: var(--fc-snow);
+}
+
+#app .cdThree:hover {
+    background-image: url(img/nails/unhaFibraVidro.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10rem;
+    color: var(--fc-snow);
+}
+
+#app .cdFour {
+    background-image: url(img/nails/EsmaltaçãoCultilagem.png);
+    background-position: top;
+    background-size: cover;
+    
+    color: var(--fc-shadow);
+    height: 30rem;
+}
+
+#app .card p {
+    font-size: 3rem;
+}
+
+/* footer */
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--fc-shadow);
+}
+
+footer ul {
+    display: flex;
+    gap: 4rem;
+
+    font-size: 2rem;
+    list-style: none;
+    
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+footer ul img {
+    width: 3rem;
+}
+
+footer ul img:hover {
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+footer hr {
+    box-shadow: var(--fc-shadow) 5px 7px 20px 1px;
+}

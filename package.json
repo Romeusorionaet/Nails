@@ -1,0 +1,15 @@
+{
+  "name": "land-09---projetos-pessoais",
+  "version": "1.0.0",
+  "description": "Nails page",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "Romeu soares de souto",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
