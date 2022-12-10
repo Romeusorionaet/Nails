@@ -1,6 +1,6 @@
 ## Projeto GitFavorites
 
-> Esta é uma página simples e direta que criei no intuito de mostrar seu trabalho.
+> Esta é uma página simples e direta. Criei no intuito de com ela, divulgar seu trabalho.
 
 ![preview](./img/preview/preview.png)
 
@@ -8,7 +8,7 @@
 
 ![preview](./img/preview/preview2.png)
 
-[😊⭐⭐Clique aqui para acessar⭐⭐😊](https://romeusorionaet.github.io/Nails/)
+[😊⭐⭐Clique aqui para acessar⭐⭐😊](https://nails-1l0majvwq-romeusorionaet.vercel.app)
 
 # Tecnologias utilizadas
 - HTML
