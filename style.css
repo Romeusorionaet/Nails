@@ -245,3 +245,9 @@ footer hr {
         padding: 4rem;
     }
 }
+
+@media (max-height: 600px) {
+    header {
+        margin-top: 65rem
+    }
+}
