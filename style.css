@@ -15,6 +15,7 @@
 }
 
 body {
+    background-repeat: repeat;
     background-image: linear-gradient(to top, rgba(182, 116, 219, 0.726), rgba(221, 191, 107, 0.979));
 
     font-family: var(--ff-body);
