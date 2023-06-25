@@ -236,9 +236,9 @@ footer hr {
     box-shadow: var(--fc-shadow) 5px 7px 20px 1px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     header {
-        margin-top: 35rem
+        margin-top: 50rem
     }
 
     #app {
