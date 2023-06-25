@@ -15,7 +15,6 @@
 }
 
 body {
-    background-repeat: no-repeat;
     background-image: linear-gradient(to top, rgba(182, 116, 219, 0.726), rgba(221, 191, 107, 0.979));
 
     font-family: var(--ff-body);
@@ -234,4 +233,14 @@ footer ul img:hover {
 
 footer hr {
     box-shadow: var(--fc-shadow) 5px 7px 20px 1px;
+}
+
+@media (max-width: 600px) {
+    header {
+        margin-top: 35rem
+    }
+
+    #app {
+        padding: 4rem;
+    }
 }
